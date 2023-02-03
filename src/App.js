@@ -1,16 +1,18 @@
 import React from 'react';
-import Navbar from './components/Navbar.js';
-import { BrowserRouter as Router, Routes, Route } from 
-'react-router-dom';
+import Navbar from './elements/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <>
     <Router>
-     <Navbar />
+     <Navbar/>
       <Routes>
-        <Route path='/' exact />
+        <Route path="/" exact element={<artist/>} />
+        <Route path="/videos" element={<videos/>} />
+       <Route path="/music" element={<music/>} />
+        <Route path="/sign-up" element={<signUp/>} />
       </Routes>
      </Router>
   </>
