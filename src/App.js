@@ -9,7 +9,7 @@ function App() {
     <Router>
      <Navbar/>
       <Routes>
-        <Route path="/" exact element={<artist/>} />
+        <Route path="/" exact element={<home/>} />
         <Route path="/videos" element={<videos/>} />
        <Route path="/music" element={<music/>} />
         <Route path="/sign-up" element={<signUp/>} />
