@@ -6,8 +6,9 @@
   }
   
   .home,
-  .services,
-  .products,
+  .artist,
+  .videos,
+  .music,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -16,7 +17,15 @@
     font-size: 3rem;
   }
   
-  .services {
+  .artist {
+    background-image: url('');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .videos {
     background-image: url('');
     background-position: center;
     background-size: cover;
@@ -25,7 +34,7 @@
     font-size: 100px;
   }
   
-  .products {
+  .music {
     background-image: url('');
     background-position: center;
     background-size: fill;
