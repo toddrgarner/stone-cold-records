@@ -12,20 +12,22 @@ function HeroSection() {
     <video ReactPlayer url='https://www.youtube.com/watch?v=GfxdJjoCW9c' autoPlay loop muted />
     <h1>Pullman Porters</h1>
     <p>Take You To A Place</p>
-
     <div className="hero-btns">
-      <Button clasName='btns' buttonStyle='btn--outline'
-      buttonSize='btn--large'>
+      <Button clasName='btns' 
+      buttonStyle='btn--outline'
+      buttonSize='btn--large'
+      >
         GET STARTED
          </Button> 
-         <Button className='btns' buttonStyle='btn--primary'
-         buttonSize='btn--large'>
+         <Button 
+         className='btns' 
+         buttonStyle='btn--primary'
+         buttonSize='btn--large'
+         >
           WATCH VIDEO <i className='far fa-play-circle'/>
-         </Button>
-         
+         </Button>         
        </div>
     </div>
   );
 }
-
 export default HeroSection;
