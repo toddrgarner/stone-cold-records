@@ -8,7 +8,7 @@ import '../App.css';
 function HeroSection() {
   return (
    <div className='hero-container'>
-    <video url='https://www.youtube.com/watch?v=GfxdJjoCW9c' autoPlay loop muted />
+    <video url='p-porters-Pix-1.jpg' autoPlay loop muted />
     <h1>Pullman Porters</h1>
     <p>Take You To A Place</p>
     <div className="hero-btns">
