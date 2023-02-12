@@ -7,7 +7,8 @@ video {
   }
   
   .hero-container {
-    background: url('../../public/images/p-porters-Pix-1.jpg') center no-repeat;
+    background: url('../../public/Images/p-porters-Pix-1.jpg') center  
+    no-repeat;
      height: 100vh;
     width: 100%;
     display: flex;
