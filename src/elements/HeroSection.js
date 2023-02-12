@@ -8,7 +8,7 @@ import '../App.css';
 function HeroSection() {
   return (
    <div className='hero-container'>
-    <image url='p-porters-Pix-1.jpg' />
+    <image url='./images/p-porters-Pix-1.jpg' />
     <h1>Pullman Porters</h1>
     <p>Take You To A Place</p>
     <div className="hero-btns">
