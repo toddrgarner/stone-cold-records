@@ -8,7 +8,7 @@ import '../App.css';
 function HeroSection() {
   return (
    <div className='hero-container'>
-    <image url='./Images/p-porters-Pix-1.jpg' />
+    <image url='/' />
     <h1>Pullman Porters</h1>
     <p>Take You To A Place</p>
     <div className="hero-btns">
@@ -23,7 +23,7 @@ function HeroSection() {
          buttonStyle='btn--primary'
          buttonSize='btn--large'
          >
-          WATCH VIDEO <i className='far fa-play-circle'/>
+          WATCH VIDEO <i className='far fa-play-cir'/>
          </Button>         
        </div>
     </div>
