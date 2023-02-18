@@ -1,7 +1,25 @@
 import React from 'react';
 import '../../App.css';
 
-export default function Artist() {
-  return <h1 className='artist'></h1>;
-  
-}
+import HeroSection from '../HeroSection';
+import Cards from '../Cards';
+
+function Artist() {
+    return (
+    <>
+    <HeroSection />
+    <Cards />
+    </>
+
+    );
+ }
+ export default Artist;
+
+
+
+
+
+
+
+
+

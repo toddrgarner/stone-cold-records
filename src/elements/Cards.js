@@ -1,5 +1,5 @@
 import React from 'react'
-// import '.Cards.css';
+import './Cards.css';
 import CardItem from './CardItem';
 
 function Cards() {
@@ -14,7 +14,7 @@ function Cards() {
         </div>
       </div>
     </div>
-  )
+  ) 
 }
 
 export default Cards
