@@ -9,8 +9,9 @@ function HeroSection() {
   return (
    <div className='hero-container'>
     <image url='/' />
-    <h1>Pullman Porters</h1>
-    <p>Take You To A Place</p>
+    <h1>Stone Cold Records</h1>
+    <p>Featured Video</p>
+    <p>"Take You To A Place"</p>
     <div className="hero-btns">
       <Button clasName='btns' 
       buttonStyle='btn--outline'
@@ -23,7 +24,7 @@ function HeroSection() {
          buttonStyle='btn--primary'
          buttonSize='btn--large'
          >
-          WATCH VIDEO <i className='far fa-play-cir'/>
+          WATCH VIDEO <i className='far fa-play-circle'/>
          </Button>         
        </div>
     </div>
