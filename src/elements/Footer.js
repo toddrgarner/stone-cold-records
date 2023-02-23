@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from './Button';
 
 function footer() {
   return (
@@ -15,6 +16,7 @@ function footer() {
         <form>
             <input type="email"  name="email" placeholder="Your Email"
             className="footer-input" />
+             <Button buttonStyle="btn--outline">Subscribe</Button>
         </form>
         </div>
       </section>
@@ -22,4 +24,4 @@ function footer() {
   )
 }
 
-export default footer
+export default footer;
