@@ -8,7 +8,7 @@ import '../App.css';
 function HeroSection() {
   return (
    <div className='hero-container'>
-    <image url='/' />
+      <video src='https://www.youtube.com/watch?v=SfhDhoktQ2M' autoPlay loop muted />
     <h1>Stone Cold Records</h1>
     <p>Featured Video</p>
     <p>"Take You To A Place"</p>
