@@ -7,7 +7,7 @@ import Artist from './elements/pages/Artist';
 import Videos from './elements/pages/Videos';
 import Music from './elements/pages/Music';
 import SignUp from './elements/pages/SignUp';
-import LabelLogo from './elements/icon/LabelLogo';
+
 
 
 

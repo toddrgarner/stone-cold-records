@@ -1,11 +1,13 @@
 import React from "react";
 
-import LabelLogo, { Facebook } from "./LabelLogo";
+import { LabelLogo } from "./LabelLogo";
 
-const Icon = (props) => {
+
+const Icon = props => {
   switch (props.name.toLowerCase()) {
     case "labellogo":
       return <LabelLogo {...props} />;
+  
     default:
       return <div />;
   }
