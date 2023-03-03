@@ -2,5 +2,6 @@ import React from 'react';
 import '../../App.css';
 
 export default function Music() {
-  return <h1 className='music'>MUSIC</h1>;
+  // eslint-disable-next-line 
+  return <h1 className='music'></h1>;
 }
