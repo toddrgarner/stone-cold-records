@@ -19,7 +19,7 @@
   }
   
   .navbar-logo {
-    color: #fff;
+    color: hwb(0 100% 0%);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -29,15 +29,11 @@
     align-items: center;
   }
   
-  .Logo {
+  .logo.png {
     color: #fff;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
+  margin-left: 0.5rem;
+  font-size: 2.8rem;
+  width: 16px;
   }
   
   .nav-menu {
