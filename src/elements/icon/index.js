@@ -3,8 +3,8 @@ import React from "react";
 import { LabelLogo } from "./LabelLogo";
 
 
-const Icon = props => {
-  switch (props.name.toLowerCase()) {
+const Logo = props => {
+  routes (props.name.toLowerCase()) {
     case "labellogo":
       return <LabelLogo {...props} />;
   
@@ -13,4 +13,4 @@ const Icon = props => {
   }
 };
 
-export { Icon };
+export { Logo };

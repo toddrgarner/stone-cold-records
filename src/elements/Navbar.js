@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from "react-router-dom";
 import './Navbar.css';
+import Logo from '../img/logo.png';
+
+
 
 
 
@@ -30,9 +33,9 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to src='/' className='navbar-logo' onClick={closeMobileMenu}>
             Stone Cold Records 
-            <i className='LabelLogo' />
+        <img src={ Logo } alt="My Logo" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -86,6 +89,6 @@ function Navbar() {
       </nav>
     </>
   );
-}
+};
 
 export default Navbar;

@@ -29,9 +29,15 @@
     align-items: center;
   }
   
-  .sc-records-logo-modified.ico {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+  .Logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
   }
   
   .nav-menu {

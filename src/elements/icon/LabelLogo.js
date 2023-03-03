@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const LabelLogo = ({className, height, width}) => {
   return (
     <svg
