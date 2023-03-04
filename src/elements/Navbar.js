@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from "react-router-dom";
 import './Navbar.css';
-import Logo from '../img/logo.png';
+import Logo from '../img/logo-11.png';
 
 
 
@@ -33,16 +33,17 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to src='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Stone Cold Records 
-        <img src={ Logo } alt="My Logo" />
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            Stone Cold Records
+        <img className src={ Logo } alt="label-logo" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li> 
@@ -50,7 +51,8 @@ function Navbar() {
               <Link 
               to='/artist' 
               className='nav-links' 
-              onClick={closeMobileMenu}>
+              onClick={closeMobileMenu}
+              >
                 Artist
               </Link>
             </li> 
@@ -71,8 +73,7 @@ function Navbar() {
               >
                 Music
               </Link>
-            </li>
-            
+            </li>            
 
             <li>
               <Link

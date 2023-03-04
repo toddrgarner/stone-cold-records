@@ -8,7 +8,7 @@ function footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join Stone Cold Records newsletter to receive info on our artist and
+          Join Stone Cold Records mailing list to receive info on our artist and
           music
         </p>
         <p className="footer-subscription-text">
@@ -17,10 +17,9 @@ function footer() {
         <div className="input-areas">
           <form>
             <input
-              type="email"
               name="email"
-              placeholder="Your Email"
-              className="footer-input"
+              type="email"
+              placeholder="Your Email"           
             />
             <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
@@ -37,21 +36,14 @@ function footer() {
           </div>
          <div className="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
+            <Link to="/">Website</Link>
             <Link to="/">Facebook</Link>
-            <Link to="/">YouTube</Link>
-            <Link to="/">Twitter</Link>
-          </div>
+                     </div>
         </div>
+      </div> 
+          
       </div>
-      <section className="social-media"></section>
-      <div className="social-media-wrap">
-          <div className="footer-logo">
-            link.social-logo
-          </div>
-      </div>
-    </div>
-  );
+     );
 }
 
 export default footer;
