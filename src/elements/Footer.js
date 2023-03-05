@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
+import Logo from '../img/logo-16.png';
 
 function footer() {
   return (
@@ -41,7 +42,17 @@ function footer() {
                      </div>
         </div>
       </div> 
-          
+          <section className="media-media">
+            <div className="social-media-wrap">
+            <div className="footer-logo">
+            <Link to='/' className="social-logo">
+              Stone Cold Records
+              <img src={ Logo } className='label-logo' alt="logo" />
+            </Link>
+
+            </div>
+            </div>
+          </section>
       </div>
      );
 }
