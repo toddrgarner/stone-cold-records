@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from "react-router-dom";
 import './Navbar.css';
-import Logo from '../img/logo-11.png';
+import Logo from '../img/logo-16.png';
 
 
 
